@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invoice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./invoice.css">
+</head>
+<body>
+    <h1 class="title">
+        invoice
+    </h1>
+    <div class="p-5">
+        <a href="./pos.html">Back</a>
+      </div>
+    <div class="container">
+        <h6 id="date"></h6>
+        <h6 id="customer"></h6>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Product</th>
+                <th scope="col">price</th>
+                <th scope="col">quantity</th>
+                <th scope="col">total</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+              
+            </tbody>
+            <tr class="total">
+                <td colspan="3">Total : </td>
+                <td id="total" colspan="2">$</td>
+            </tr>
+          </table>
+          <hr>
+          <form action="" id="form">
+            <div class="Payment" >
+                <label for="mode">Payment Mode : </label><br>
+                <label for="cash">cash  <input type="radio" value="cash" name="mode" id="cash"></label>
+                <label for="upi">upi  <input type="radio" name="mode" value="upi" id="upi"></label><br>
+                <span class="err"></span>
+      
+              </div>
+              
+              <Button>Pay</Button>
+
+          </form>
+
+          
+          
+          
+    </div>
+    <script src="./invoice.js"></script>
+
+    
+</body>
+</html>

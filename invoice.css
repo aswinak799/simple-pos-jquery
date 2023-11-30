@@ -1,0 +1,54 @@
+.title{
+    text-align: center;
+}
+.total td{
+    text-align: center;
+
+}
+#customer{
+    float: right;
+}
+#date{
+    float: left;
+}
+.container{
+    margin-top: 100px;
+    width: 50%;
+}
+button{
+
+    width: 100px;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background: #7C7BAD;
+    float: right;
+
+}
+.Payment{
+    float: left;
+}
+.err{
+    color: red;
+}
+a{
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 25px;
+    background: #7C7BAD;
+    text-decoration: none;
+    color:white;
+
+}
+a:hover{
+
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 25px;
+    background: #7C7BAD;
+    text-decoration: none;
+    color:white;
+
+
+}

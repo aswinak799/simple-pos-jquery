@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+input{
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    
+}
+input[type = "submit"]{
+    color: white;
+    background: #7C7BAD;
+}
+header{
+    
+    width: 100%;
+    height: 50px;
+    background: #7C7BAD;
+    /* position: fixed; */
+    z-index: 1;
+}
+select{
+    padding: 5px;
+    width: 70%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+
+}
+.quantity{
+    width: 50px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+button{
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background: #7C7BAD;
+
+}
+#add-button{  
+    width: 50px;
+    height: 30px;
+    float: right;
+    
+    background: #7C7BAD;
+    text-decoration: none;
+    color: white;
+}
+span{
+    margin-left: 20px;
+    text-align: center;
+}
+.product-price{
+    float: right;
+}
+.sub-total{
+    float: left;
+}
+.nav-link{
+    color: white;
+}
+
+.card{
+    transition: 2s;
+    
+}
+.card:hover{
+    transform: scale(1.09);
+    background: rgb(193, 166, 219);
+    color: deeppink;
+}
+.bi{
+    font-size: 25px;
+}
+hr{
+    border-top: 1px dashed rgb(193, 166, 219);
+}
+.add-user,.addproduct{
+    border-right: 1px dashed  rgb(193, 166, 219);
+}
